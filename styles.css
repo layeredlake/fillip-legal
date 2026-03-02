@@ -1,11 +1,11 @@
 :root {
-  color-scheme: dark;
-  --bg: #000000;
-  --card: #000000;
-  --text: #ffffff;
-  --subtle: #c7c7c7;
-  --line: #2b2b2b;
-  --brand: #ffffff;
+  color-scheme: light;
+  --bg: #ffffff;
+  --card: #ffffff;
+  --text: #111111;
+  --subtle: #555555;
+  --line: #dddddd;
+  --brand: #111111;
 }
 
 * {
