@@ -1,22 +1,11 @@
 :root {
-  color-scheme: light dark;
-  --bg: #f7f8fb;
-  --card: #ffffff;
-  --text: #1f2937;
-  --subtle: #6b7280;
-  --line: #e5e7eb;
-  --brand: #2563eb;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f172a;
-    --card: #111827;
-    --text: #e5e7eb;
-    --subtle: #9ca3af;
-    --line: #1f2937;
-    --brand: #60a5fa;
-  }
+  color-scheme: dark;
+  --bg: #000000;
+  --card: #000000;
+  --text: #ffffff;
+  --subtle: #c7c7c7;
+  --line: #2b2b2b;
+  --brand: #ffffff;
 }
 
 * {
@@ -73,11 +62,11 @@ ul {
 
 a {
   color: var(--brand);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.85;
 }
 
 nav {
